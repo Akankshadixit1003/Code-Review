@@ -6,7 +6,7 @@ const app = express()
 
 app.use(cors({
   origin: 'https://code-review-ruddy.vercel.app', // Replace with your frontend URL
-  credentials: true // If using cookies, authentication headers, etc.
+  credentials: true 
 }));
 
 
